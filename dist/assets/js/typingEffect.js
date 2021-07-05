@@ -1,4 +1,3 @@
-const React = require('react');
 const typingEffect = document.getElementById('typingEffect');
 
 let typewriter = new Typewriter(app, {
