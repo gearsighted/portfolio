@@ -32,6 +32,12 @@
     <!-- JS -->
     <script src="assets/js/effects.js"></script>
     <script src="assets/js/theme.js" defer></script>
+    <script src="assets/js/typingEffect.js"></script>
+      <!-- React typewriter plugin-->
+      <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+      <!-- React CDN-->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
   </head>
 
   <body>
@@ -88,15 +94,17 @@
     <main id="content">
       <!-- Hero -->
       <div class="container py-5 hero__background">
-        <h1 class="display-2 pb-2">Hey, I'm Jesse, and I Build 
+        <div id="typingEffect">
+        <!-- <h1 class="display-2 pb-2">Hey, I'm Jesse, and I Build 
           <span
           class="txt-rotate"
           data-period="2000"
           data-rotate='[ "Websites.", "Bikes.", "Trails." ]'></span></h1>
-        <hr
+          <hr
           class="border-3 border-white my-4 ml-0 text-left w-25"
           role="presentation"
-        />
+          /> -->
+          </div>
         <div class="row">
           <div class="col-lg-8">
             <p class="font-serif lead mb-4 text-secondary">
