@@ -2,18 +2,16 @@ import './styles/index.css';
 
 function Header() {
   return (
-  <div class="py-20" >
-  <div class="container mx-auto px-6">
-    <h2 class="text-4xl font-bold mb-2 text-white">
-      Smart Health Monitoring Wristwatch!
-    </h2>
-    <h3 class="text-2xl mb-8 text-gray-200">
-      Monitor your health vitals smartly anywhere you go.
-    </h3>
-
-    <button class="bg-white font-bold rounded-full py-4 px-8 shadow-lg uppercase tracking-wider">
-      Pre Order
-    </button>
+  <div className="container h-screen w-screen mx-auto bg-background-dark">
+    <div className="py-20 h-screen w-screen flex items-center justify-center " >
+    <div className="container mx-auto px-6 flex flex-col items-center justify-center ">
+      <h1 className="text-4xl font-bold mb-2 w-100">
+        Jesse Woody, Web Developer
+      </h1>
+      <button className="bg-highlight-light hover:bg-highlight-medium hover:drop-shadow-sm font-bold rounded-full mt-2 py-4 px-8 shadow-lg uppercase tracking-wider">
+        See My Work
+      </button>
+    </div>
   </div>
 </div>
   );
