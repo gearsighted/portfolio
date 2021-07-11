@@ -2,7 +2,7 @@ import './styles/index.css';
 
 function Header() {
   return (
-  <div className="container h-screen w-screen mx-auto bg-background-dark">
+  <div className="container h-screen w-screen mx-auto bg-transparent">
     <div className="py-20 h-screen w-screen flex items-center justify-center " >
     <div className="container mx-auto px-6 flex flex-col items-center justify-center ">
       <h1 className="text-4xl font-bold mb-2 w-100">
