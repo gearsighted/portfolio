@@ -12,7 +12,9 @@ module.exports = {
       highlight: {
         light: '#FFB703',
         medium: '#FB8500'
-      }
+      },
+       white: "#FFF",
+       black: "#000",
     }
   },
   variants: {
