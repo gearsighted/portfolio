@@ -1,6 +1,6 @@
-/* .hero__background {
-  background-image: url("https://images.unsplash.com/photo-1529420385676-b452fa7fdf71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80");
+.hero__background {
+  background-image: url("https://res.cloudinary.com/gearscloud/image/upload/e_sharpen:100,q_auto/v1626221045/Portfolio/grayson-portrait-wide_aeb2dg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-} */
+}

@@ -5,13 +5,12 @@ module.exports = {
     extend: {},
     colors: {
       background: {
-        dark: '#023047',
-        medium: '#219EBC',
-        light: '#8ECAE6'
+        blue: '#263E7E',
+        green: '#455738',
       },
       highlight: {
-        light: '#FFB703',
-        medium: '#FB8500'
+        red: '#9F1C20',
+        pink: '#F4D9D8'
       },
        white: "#FFF",
        black: "#000",

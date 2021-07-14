@@ -9,7 +9,7 @@ import Contact from './Components/Contact';
 
 function App() {
   return (
-      <main className="bg-background-dark text-white">
+      <main className="bg-background-blue text-highlight-pink">
       <Navbar />
       <Header />
       <About />
