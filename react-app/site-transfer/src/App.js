@@ -3,19 +3,17 @@ import Header from './Components/Header';
 import Navbar from './Components/Navbar';
 import About from './Components/About';
 import Projects from './Components/Projects';
-import Skills from './Components/Skills';
-import Testimonials from './Components/Testimonials';
+import Blog from './Components/Blog';
 import Contact from './Components/Contact';
 
 function App() {
   return (
-      <main className="bg-background-blue text-highlight-pink">
+      <main className="bg-brand-dark text-brand-mediumLight">
       <Navbar />
       <Header />
       <About />
       <Projects />
-      <Skills />
-      <Testimonials />
+      <Blog />
       <Contact />
     </main>
   );
