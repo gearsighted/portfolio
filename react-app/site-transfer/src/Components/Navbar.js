@@ -1,10 +1,10 @@
-import './styles/index.css';
+import "./styles/index.css";
 
 function Navbar() {
   return (
-<nav class="flex items-center justify-between flex-wrap bg-opacity-0 p-6 fixed">
-<p>Here's a nav!</p>
-  {/* <div class="flex items-center flex-shrink-0 text-black mr-6">
+    <nav class="flex items-center justify-between flex-wrap bg-opacity-0 p-6 fixed">
+      <p>Here's a nav!</p>
+      {/* <div class="flex items-center flex-shrink-0 text-black mr-6">
     <span class="font-semibold text-xl tracking-tight">Jesse Woody</span>
   </div>
   <div class="block lg:hidden">
@@ -25,7 +25,7 @@ function Navbar() {
       </a>
     </div>
   </div> */}
-</nav>
+    </nav>
   );
 }
 
