@@ -1,29 +1,34 @@
-import './styles/index.css';
+import "./styles/index.css";
 
 function About() {
   return (
-<section id="about">
+    <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
-            Hi, I'm Jesse.
+            Hi, I'm <span className="text-brand-warning">Jesse</span>.
             <br className="hidden lg:inline-block" />I love to build things!
           </h1>
           <p className="mb-8 leading-relaxed">
-            I'm a freelance web developer, carpenter, trail builder, and bike mechanic living in 
-            Charlottesville, VA. I love building solutions for my client's problems, whether that
-            involves a beautiful and fast website, a world class trail system, or an upgraded kitchen!
+            I'm a freelance web developer, trail builder, bike mechanic, and
+            carpenter currently residing in Charlottesville, VA. I love building
+            solutions for my friends and clients, whether that's a beautiful
+            website for their small business or a custom backyard pump track for
+            their bike addiction!
           </p>
           <div className="flex justify-center">
             <a
-              href="#contact"
-              className="inline-flex bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Work With Me
+              href="#projects"
+              className="inline-flex bg-brand-warning border-0 py-2 px-6 text-black  hover:bg-brand-danger hover:text-white rounded text-lg"
+            >
+              My Work
             </a>
             <a
-              href="#projects"
-              className="ml-4 inline-flex bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Past Work
+              href="#contact"
+              className="ml-4 inline-flex bg-brand-warning border-0 py-2 px-6 text-black focus:outline-none hover:bg-brand-danger 
+              hover:text-white rounded text-lg"
+            >
+              Contact Me
             </a>
           </div>
         </div>
@@ -31,7 +36,7 @@ function About() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="https://images.unsplash.com/photo-1504593811423-6dd665756598?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+            src="https://res.cloudinary.com/gearscloud/image/upload/c_scale,q_auto,w_800/v1626296396/Portfolio/jw4_truywy.webp"
           />
         </div>
       </div>

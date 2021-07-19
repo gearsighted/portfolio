@@ -1,32 +1,33 @@
 import "./styles/index.css";
+import { ArrowRightIcon } from "@heroicons/react/solid";
+import React from "react";
 
-function Navbar() {
+export default function Navbar() {
   return (
-    <nav class="flex items-center justify-between flex-wrap bg-opacity-0 p-6 fixed">
-      <p>Here's a nav!</p>
-      {/* <div class="flex items-center flex-shrink-0 text-black mr-6">
-    <span class="font-semibold text-xl tracking-tight">Jesse Woody</span>
-  </div>
-  <div class="block lg:hidden">
-    <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
-      <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-    </button>
-  </div>
-  <div class="w-full block text-black flex-grow lg:flex lg:items-center lg:w-auto justify-end">
-    <div class="text-sm lg:flex-grow">
-      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
-        Portfolio
-      </a>
-      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white mr-4">
-        About
-      </a>
-      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white">
-        Contact
-      </a>
-    </div>
-  </div> */}
-    </nav>
+    <header className="bg-gray-800 md:sticky top-0 z-10">
+      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+        <a href="#about" className="ml-3 text-xl text-brand-warning">
+          Jesse Woody
+        </a>
+        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+          <a href="#projects" className="mr-5 hover:text-white">
+            Past Work
+          </a>
+          <a href="#skills" className="mr-5 hover:text-white">
+            Blog
+          </a>
+          {/* <a href="#testimonials" className="mr-5 hover:text-white">
+            Testimonials
+          </a> */}
+        </nav>
+        <a
+          href="#contact"
+          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
+        >
+          Contact Me
+          <ArrowRightIcon className="w-4 h-4 ml-1" />
+        </a>
+      </div>
+    </header>
   );
 }
-
-export default Navbar;
