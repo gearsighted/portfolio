@@ -9,10 +9,10 @@ function Projects() {
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 ">
-            Some of My Work
+            My Work
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed">
-            Here are a few of the best web development projects I've built.
+            Check Out a Few of My Favorite Projects
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -32,7 +32,7 @@ function Projects() {
                   <h2 className="tracking-widest text-m title-font font-medium text-black mb-1">
                     {project.subtitle}
                   </h2>
-                  <h1 className="title-font text-lg font-medium text black mb-3">
+                  <h1 className="title-font text-lg font-medium text-brand-warning mb-3">
                     {project.title}
                   </h1>
                   <p className="leading-relaxed text black">
