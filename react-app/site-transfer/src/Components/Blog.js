@@ -16,13 +16,9 @@ function Blog() {
             My Latest Blog Post
           </h1>
           <p className="mb-8 leading-relaxed">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum."
+            Now that I've made the switch to a single page React app, I'm
+            working on wiring up sanity for some content management. My first
+            blog post will be published soon!
           </p>
         </div>
       </div>
