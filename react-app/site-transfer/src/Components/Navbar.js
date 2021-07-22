@@ -13,9 +13,9 @@ export default function Navbar() {
           <a href="#projects" className="mr-5 hover:text-white">
             My Work
           </a>
-          <a href="#blog" className="mr-5 hover:text-white">
+          {/* <a href="#blog" className="mr-5 hover:text-white">
             Blog
-          </a>
+          </a> */}
           {/* <a href="#testimonials" className="mr-5 hover:text-white">
             Testimonials
           </a> */}
