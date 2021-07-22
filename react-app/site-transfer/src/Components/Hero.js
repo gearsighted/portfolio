@@ -34,7 +34,7 @@ function Hero() {
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
-            className="object-cover object-center rounded"
+            className="object-cover object-center rounded-lg hero-image"
             alt="hero"
             src="https://res.cloudinary.com/gearscloud/image/upload/c_scale,q_auto,w_800/v1626296396/Portfolio/jw4_truywy.webp"
           />

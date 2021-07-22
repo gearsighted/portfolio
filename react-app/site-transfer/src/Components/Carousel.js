@@ -1,5 +1,7 @@
 import "./styles/index.css";
 import "./styles/custom.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { projects } from "../data";
 
@@ -8,8 +10,8 @@ function Carousel() {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 2,
+    slidesToShow: 2,
+    slidesToScroll: 1,
   };
   return (
     <Slider {...settings}>
