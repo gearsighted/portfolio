@@ -1,7 +1,6 @@
 import "./styles/index.css";
 import "./styles/custom.css";
 import { CodeIcon } from "@heroicons/react/solid";
-import { projects } from "../data";
 import Carousel from "./Carousel";
 
 function Projects() {

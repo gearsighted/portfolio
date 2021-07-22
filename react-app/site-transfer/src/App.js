@@ -4,7 +4,6 @@ import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
-import Carousel from "./Components/Carousel";
 
 function App() {
   return (
@@ -12,7 +11,6 @@ function App() {
       <Navbar />
       <Hero />
       <Projects />
-      {/* <Carousel /> */}
       <Contact />
     </main>
   );
