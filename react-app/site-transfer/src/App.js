@@ -1,17 +1,15 @@
 import "./styles/index.css";
 import "./styles/custom.css";
 import Navbar from "./Components/Navbar";
-import About from "./Components/About";
+import Hero from "./Components/Hero";
 import Projects from "./Components/Projects";
-import Blog from "./Components/Blog";
 import Contact from "./Components/Contact";
 
 function App() {
   return (
     <main className="bg-brand-dark text-brand-mediumLight">
       <Navbar />
-      <About />
-      <Blog />
+      <Hero />
       <Projects />
       <Contact />
     </main>

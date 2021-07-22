@@ -12,7 +12,7 @@ export const projects = [
     title: "We Should Talk Podcast",
     subtitle: "HTML, Vanilla JS and CSS",
     description:
-      "I built this simple multi-page website for the interview podcast I started, We Should Talk. I built it from scratch without frameworks or libraries.",
+      "I built this simple multi-page website for the interview podcast I started, We Should Talk. I chose to code this from scratch, without frameworks or libraries",
     image:
       "https://res.cloudinary.com/gearscloud/image/upload/c_scale,q_auto:good,w_1000/v1609691113/We%20Should%20Talk/kane-reinholdtsen-LETdkk7wHQk-unsplash_kfgmqi.webp",
     link: "https://www.weshouldtalkcast.com",
