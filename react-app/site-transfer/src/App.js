@@ -4,16 +4,18 @@ import Home from "./Components/Home";
 import Blog from "./Components/Blog";
 import Post from "./Components/Post";
 import Navbar from "./Components/Navbar";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <BrowserRouter>
       <main className="bg-brand-dark text-brand-mediumLight">
         <Navbar />
-        <Route path="/" component={Home} exact={true}></Route>
-        <Route path="/blog" component={Blog} exact={true}></Route>
-        <Route path="/blog/:slug" component={Post}></Route>
+        <Switch>
+          <Route path="/" component={Home} exact={true}></Route>
+          <Route path="/blog" component={Blog} exact={true}></Route>
+          <Route path="/blog/:slug" component={Post}></Route>
+        </Switch>
       </main>
     </BrowserRouter>
   );
