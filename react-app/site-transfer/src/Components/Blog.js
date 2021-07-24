@@ -52,7 +52,7 @@ function Blog() {
         {allPostsData &&
           allPostsData.map((post, index) => (
             <Link
-              to={"/" + post.slug.current}
+              to={"/blog/" + post.slug.current}
               key={post.slug.current}
               className="sm:w-full md:w-1/4 mx-2"
             >
