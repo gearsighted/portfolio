@@ -9,7 +9,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
-      <main className="bg-brand-dark text-brand-mediumLight">
+      <main className="bg-brand-dark text-brand-mediumLight md:h-screen">
         <Navbar />
         <Switch>
           <Route path="/" component={Home} exact={true}></Route>

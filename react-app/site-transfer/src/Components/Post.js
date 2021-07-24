@@ -39,33 +39,27 @@ function Post() {
   if (!postData) return <div>Loading...</div>;
 
   return (
-    <section>
-      <h1>Hello</h1>
-      <div className="container mx-5 flex px-10 py-20 md:flex-row flex-col flex-wrap">
-        <div>
+    <section className="mx-10">
+      <div className="container flex px-10 py-20 md:flex-row flex-col">
+        <div className="ml-1 mr-5">
           <img
-            className="w-1/3"
+            className="w-full max-w-xs"
             src={urlFor(postData.mainImage).url()}
             alt=""
           />
         </div>
-        <div className="">
-          <h1 className="text-4xl">{postData.title}</h1>
-        </div>
-        <div>
-          <BlockContent
-            className="w-2/3"
-            blocks={postData.body}
-            projectId={sanityClient.clientConfig.projectId}
-            dataset={sanityClient.clientConfig.dataset}
-          />
-        </div>
-        <div className="">
-          <img
-            src={urlFor(postData.authorImage).width(100).url()}
-            alt="Author is Jesse"
-          />
-          <h4>{postData.name}</h4>
+        <div className="flex flex-wrap flex-grow min-w-3/5 max-w-lg">
+          <div className="mb-2 px-2">
+            <h1 className="text-4xl">{postData.title}</h1>
+          </div>
+          <div>
+            <BlockContent
+              className="px-2"
+              blocks={postData.body}
+              projectId={sanityClient.clientConfig.projectId}
+              dataset={sanityClient.clientConfig.dataset}
+            />
+          </div>
         </div>
       </div>
     </section>
