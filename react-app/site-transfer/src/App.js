@@ -10,7 +10,6 @@ function App() {
   return (
     <BrowserRouter>
       <main className="bg-brand-dark text-brand-mediumLight min-h-screen">
-        <Navbar />
         <Switch>
           <Route path="/" component={Home} exact={true}></Route>
           <Route path="/blog" component={Blog} exact={true}></Route>

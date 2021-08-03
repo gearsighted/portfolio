@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import sanityClient from "../client.js";
 import BlockContent from "@sanity/block-content-to-react";
 import imageUrlBuilder from "@sanity/image-url";
+import PostNav from "./PostNav";
 
 const builder = imageUrlBuilder(sanityClient);
 function urlFor(source) {
@@ -40,6 +41,7 @@ function Post() {
 
   return (
     <section className="mx-10">
+      <PostNav />
       <div className="container flex px-10 py-20 md:flex-row flex-col">
         <div className="ml-1 mr-5">
           <img
@@ -48,7 +50,7 @@ function Post() {
             alt=""
           />
         </div>
-        <div className="flex flex-wrap flex-grow min-w-3/5 max-w-lg">
+        <div className="flex flex-wrap flex-grow min-w-3/5 max-w-xl">
           <div className="mb-2 px-2">
             <h1 className="text-4xl">{postData.title}</h1>
           </div>
