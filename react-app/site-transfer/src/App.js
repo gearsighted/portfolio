@@ -3,7 +3,6 @@ import "./styles/custom.css";
 import Home from "./Components/Home";
 import Blog from "./Components/Blog";
 import Post from "./Components/Post";
-import Navbar from "./Components/Navbar";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 function App() {
