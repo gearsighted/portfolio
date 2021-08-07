@@ -40,20 +40,18 @@ function Post() {
   if (!postData) return <div>Loading...</div>;
 
   return (
-    <section className="mx-10">
+    <section className="">
       <PostNav />
-      <div className="container flex px-10 py-20 md:flex-row flex-col">
-        <div className="ml-1 mr-5">
+      <div className="container flex px-5 py-10 justify-center items-center">
+        {/* <div className="ml-1 mr-5">
           <img
             className="w-full max-w-xs"
             src={urlFor(postData.mainImage).url()}
             alt=""
           />
-        </div>
-        <div className="flex flex-wrap flex-grow min-w-3/5 max-w-xl">
-          <div className="mb-2 px-2">
-            <h1 className="text-4xl">{postData.title}</h1>
-          </div>
+        </div> */}
+        <div className="w-3/5 lg:w-1/2">
+          <h1 className="text-4xl mb-5">{postData.title}</h1>
           <div>
             <BlockContent
               className="px-2"
