@@ -50,7 +50,7 @@ function Post() {
             alt=""
           />
         </div> */}
-        <div className="w-3/5 lg:w-1/2">
+        <div className="w-full md:w-4/5 lg:w-3/5 xl:w-1/2">
           <h1 className="text-4xl mb-5">{postData.title}</h1>
           <div>
             <BlockContent
