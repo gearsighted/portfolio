@@ -2,8 +2,8 @@ import "./styles/index.css";
 
 function AboutSite() {
   return (
-    <section id="home">
-      <div className="container mx-auto flex px-5 py-20 md:flex-row flex-col justify-center items-center w-screen">
+    <section className="w-screen">
+      <div className="mx-auto flex px-5 py-20 md:flex-row flex-col justify-center items-center w-screen">
         <div className="lg:flex-grow w-screen md:w-3/5  lg:pr-24 md:pr-16 flex flex-col items-center justify-center mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-5 ml-10 font-medium">
             About This Site:
