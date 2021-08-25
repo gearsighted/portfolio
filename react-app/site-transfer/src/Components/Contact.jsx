@@ -26,11 +26,11 @@ function Contact() {
   }
   return (
     <section id="contact" className="relative">
-      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap w-2/3">
+      <div className="container w-screen md:w-3/5 px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap w-2/3">
         <form
           netlify
           name="contact"
-          className="w-1/2 mx-auto flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+          className=" mx-auto flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
           onSubmit={handleSubmit}
         >
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
