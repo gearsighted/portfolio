@@ -42,7 +42,7 @@ function Post() {
   return (
     <section className="">
       <PostNav />
-      <div className="container flex px-5 py-10 justify-center items-center">
+      <div className="container flex md:px-5 py:5 md:py-10 justify-center items-center">
         {/* <div className="ml-1 mr-5">
           <img
             className="w-full max-w-xs"
@@ -50,7 +50,7 @@ function Post() {
             alt=""
           />
         </div> */}
-        <div className="w-full md:w-4/5 lg:w-3/5 xl:w-1/2">
+        <div className="w-11/12 md:w-4/5 lg:w-3/5 xl:w-1/2">
           <h1 className="text-4xl text-center mb-5">{postData.title}</h1>
           <div>
             <BlockContent

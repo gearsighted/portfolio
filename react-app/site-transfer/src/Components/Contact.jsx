@@ -26,7 +26,7 @@ function Contact() {
   }
   return (
     <section id="contact" className="relative">
-      <div className="container w-screen md:w-3/5 px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap w-2/3">
+      <div className="container w-screen text-center md:text-left md:w-3/5 px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap w-2/3">
         <form
           netlify
           name="contact"

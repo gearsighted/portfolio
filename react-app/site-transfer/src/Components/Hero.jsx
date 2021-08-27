@@ -3,8 +3,8 @@ import "./styles/index.css";
 function Hero() {
   return (
     <section id="home">
-      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col justify-center items-center">
-        <div className="lg:flex-grow md:w-1/2 mx-10 lg:pr-20 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center max-w-xl">
+      <div className="container mx-auto flex px-5 py-10 md:px-10 md:py-20 md:flex-row flex-col justify-center items-center">
+        <div className="lg:flex-grow w-screen md:w-1/2 mx-10 lg:pr-20 md:pr-16 flex flex-col md:items-start md:text-left md:mb-16  items-center text-center max-w-xl order-last md:order-first">
           <h1 className="title-font sm:text-4xl text-3xl mb-5 font-medium max-w-lg">
             Hi, I'm <span className="text-brand-warning">Jesse</span>.{" "}
             <br className="hidden lg:inline-block max-w-lg" />I Love to Build Interesting Things.{" "}
@@ -31,7 +31,7 @@ function Hero() {
             </a>{" "}
           </div>{" "}
         </div>{" "}
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <div className="mb-5 md:mb-0 w-11/12 lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded-lg hero-image"
             alt="hero"

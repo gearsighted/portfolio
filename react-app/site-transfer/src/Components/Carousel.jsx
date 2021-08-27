@@ -46,7 +46,6 @@ function Carousel() {
           href={project.link}
           key={project.image}
           className="sm:w-1/2 w-100 p-4"
-          target="_blank noreferrer noopener"
         >
           <div className="flex relative text-black rounded-lg project-div drop-shadow-lg ">
             <img
@@ -54,7 +53,7 @@ function Carousel() {
               className="absolute inset-0 w-full h-full object-cover object-center rounded-lg"
               src={project.image}
             />
-            <div className="transition duration-500 px-8 py-10 relative z-10 w-full border-2 border-white bg-white opacity-0 hover:opacity-100 rounded-lg">
+            <div className="transition duration-500 px-8 py-10 relative z-10 w-full border-2 border-white bg-white opacity-100 md:opacity-0 md:hover:opacity-100 rounded-lg">
               <h1 className="title-font text-lg font-medium text-brand-warning mb-1">
                 {project.title}
               </h1>
