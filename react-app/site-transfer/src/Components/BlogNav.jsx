@@ -5,11 +5,11 @@ export default function BlogNav() {
   return (
     <header className="bg-gray-800 md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a href="/" className="ml-3 text-xl text-brand-warning">
+        <a href="/" className="md:ml-3 text-xl text-brand-warning">
           Jesse Woody
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-          <a href="/" className="mr-5 hover:text-white">
+          <a href="/" className="md:mr-5 hover:text-white">
             Home
           </a>
           {/* <a href="/blog" className="mr-5 hover:text-white">

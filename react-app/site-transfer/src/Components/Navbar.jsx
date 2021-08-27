@@ -6,14 +6,14 @@ export default function Navbar() {
   return (
     <header className="bg-gray-800 md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a href="/" className="ml-3 text-xl text-brand-warning">
+        <a href="/" className="mx-auto md:ml-3 text-xl text-brand-warning">
           Jesse Woody
         </a>
-        <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+        <nav className="mx-auto md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-between md:justify-center">
           <a href="#projects" className="mr-5 hover:text-white">
             My Work
           </a>
-          <a href="/blog" className="mr-5 hover:text-white">
+          <a href="/blog" className="md:mr-5 hover:text-white">
             Blog
           </a>
           {/* <a href="#testimonials" className="mr-5 hover:text-white">
