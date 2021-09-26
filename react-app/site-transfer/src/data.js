@@ -24,6 +24,6 @@ export const projects = [{
         subtitle: "ALL the JavaScript",
         description: "Here is my Github profile, with all of my projects, many of which are a work in progress. I will hopefully have a few great projects wrapped up soon. Feel free to leave me suggestions!",
         image: "https://res.cloudinary.com/gearscloud/image/upload/c_scale,q_auto:good,w_1000/v1626980889/Portfolio/github-screen_vpgg97.webp",
-        link: "https://www.https://github.com/gearsighted",
+        link: "https://github.com/gearsighted",
     },
 ];
