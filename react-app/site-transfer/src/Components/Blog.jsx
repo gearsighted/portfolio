@@ -46,7 +46,7 @@ function Blog() {
         </div>
       </div> */}
       <div className="container mx-auto flex md:px-10 md:py-5 md:flex-row flex-wrap flex-col justify-center items-center">
-        <div className="mx-auto w-screen flex justify-center items-center">
+        <div className=" w-screen flex justify-center items-center">
           <h2 className="title-font text-2xl font-medium mb-10">
             All Blog Posts
           </h2>
